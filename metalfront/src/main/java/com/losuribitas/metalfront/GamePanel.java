@@ -32,8 +32,8 @@ public class GamePanel extends JPanel implements ActionListener {
         setPreferredSize(new Dimension(GameConfig.WIDTH, GameConfig.HEIGHT));
         setBackground(GameConfig.BACKGROUND_COLOR);
         
-        // Precargar imágenes de enemigos
-        ImageLoader.preloadEnemyImages();
+        // Precargar todas las imágenes (enemigos y torres)
+        ImageLoader.preloadAllImages();
         
         initializeGame();
         setupListeners();
@@ -425,3 +425,4 @@ public class GamePanel extends JPanel implements ActionListener {
                       800, GameConfig.HEIGHT - 60);
     }
 }
+

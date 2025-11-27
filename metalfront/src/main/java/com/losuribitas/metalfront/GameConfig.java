@@ -27,6 +27,14 @@ public class GameConfig {
         new Color(120, 50, 50)
     };
     
+    // Nombres de imágenes de torres
+    public static final String[] TOWER_IMAGES = {
+        "tower_basic.png",
+        "tower_sniper.png",
+        "tower_rapid.png",
+        "tower_cannon.png"
+    };
+    
     // Colores del juego
     public static final Color BACKGROUND_COLOR = new Color(34, 139, 34);
     public static final Color PATH_COLOR = new Color(139, 90, 43);
@@ -40,5 +48,13 @@ public class GameConfig {
         new Color(100, 180, 255),  // Rápido
         new Color(255, 170, 90),   // Tanque
         new Color(200, 120, 255)   // Boss
+    };
+    
+    // Nombres de imágenes de enemigos
+    public static final String[] ENEMY_IMAGES = {
+        "enemy_basic.png",
+        "enemy_fast.png",
+        "enemy_tank.png",
+        "enemy_boss.png"
     };
 }
